@@ -1,2 +1,2 @@
 # About-me
-It quizzes the user on fun facts gives the user some basic information .
+**This web-page  is making a guess about the owenr by asking the user 5 questions then make a response about the answers,in the main page there is a biography about the owner**.
