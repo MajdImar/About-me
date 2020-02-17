@@ -1,0 +1,16 @@
+body{
+    background-color:burlywood;
+}
+main{
+    color: crimson;
+}
+h1{
+    color: steelblue;
+    background-color: violet;
+    margin: 20px;
+    border: transparent  ;
+    
+}
+p{
+    padding: 8px;
+}
