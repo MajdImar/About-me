@@ -1,16 +1,36 @@
 body{
     background-color:burlywood;
 }
-main{
-    color: crimson;
+ main {
+    color:rgb(110, 70, 42);
+    padding: 50px;
+    margin: 30px;
+    border: thick orangered;
 }
-h1{
-    color: steelblue;
-    background-color: violet;
-    margin: 20px;
-    border: transparent  ;
+h1{ height: 30px ;
+    
+    margin: 10px;
+    padding: 5px;
+    font-family: fantasy;
+    color:orange;
+    background-color: floralwhite;
+   
+    border: solid rgb(226, 131, 43);
+    text-align: center;
     
 }
-p{
-    padding: 8px;
+p{ margin: 40x;
+    padding: 40px;
+    color:teal;
+}
+ul{
+
+    list-style-type: square;
+    padding: 40px;
+    margin: 1px;;
+}
+ol{
+    list-style-type: upper-latin;
+    padding: 40px;
+    margin: 1px;
 }
