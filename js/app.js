@@ -49,7 +49,7 @@ if (q4  ==='yes' || q4 ==='y') {
             alert ('oh!try to put yes/y or no/n');  
          }
 
-var q5=prompt("Do you that I travel a lot?").toLowerCase();
+var q5=prompt("Do you think that I travel a lot?").toLowerCase();
 
 if (q5  ==='yes' || q5 ==='y') {
     console.log(q5)
@@ -62,4 +62,4 @@ if (q5  ==='yes' || q5 ==='y') {
             alert ('oh!try to put yes/y or no/n');  
          }
          
-         alert('Thank you'+name1);
+         alert('Thank you for trying this gussing game'+name1);
