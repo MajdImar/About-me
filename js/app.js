@@ -74,13 +74,16 @@ else {
 var i = 0;
 var num = 5;
 var q6 = prompt("can you guess the month which I born in?");
-for (i = 0; i < 3; i++) {
+for (i = 0; i < 4; i++) {
 
    if (q6 == num) {
       alert('oui you are correct');
       score = score + 1;
       break;
 
+   }
+   else if(i==3){
+break;
    }
    else if (q6 > 5 && q6 < 12) {
       alert('oh no it is less than this ');
@@ -97,7 +100,7 @@ for (i = 0; i < 3; i++) {
 var arr = ['red', 'blue', 'black', 'violet', 'pink', 'brown', 'yellow', 'green', 'white'];
 var q7 = prompt("can you guess what is  my favorite color ? ")
 
-for (var x = 1; x < 6; x++){
+for (var x = 0; x < 6; x++){
    for (var y = 0; y < arr.length; y++){
     if(q7==arr[y]){
      
@@ -112,9 +115,9 @@ y=0
 if (exam == "y"){
    break;
 }
-if(x==6){
+if(x==5){
    break;
 }
-q7 = prompt("can you guess what is  my favorite color ? "+"you can tyr agin for: "+(6-x) );
+q7 = prompt("can you guess what is  my favorite color ? "+"you can tyr agin for: "+(5-x) );
 }
 alert('Thank you for trying this gussing game' + name1 + 'your score is :' + score + 'The month I was  born in is: 5' + 'My favorite color is:red' );
