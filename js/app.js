@@ -107,11 +107,12 @@ for (var x = 0; x < 6; x++){
        alert('oui you are correct');
        score =score+1 ;
        var exam ="y" ;
+       break ;
 
     }
 
    }
-y=0
+
 if (exam == "y"){
    break;
 }
