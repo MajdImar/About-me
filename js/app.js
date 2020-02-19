@@ -119,6 +119,6 @@ if (exam == "y"){
 if(x==5){
    break;
 }
-q7 = prompt("can you guess what is  my favorite color ? "+"you can tyr agin for: "+(5-x) );
+q7 = prompt("can you guess what is  my favorite color ? "+" It i swrong you can try agin for: "+(5-x) );
 }
 alert('Thank you for trying this gussing game' + name1 + 'your score is :' + score + 'The month I was  born in is: 5' + 'My favorite color is:red' );
