@@ -4,6 +4,9 @@ var name1 = prompt("What is your name?");
 console.log(name1);
 alert(`Hello,Salut in all languages welcome to My webpage ${name1}`);
 
+function q1(){
+
+
 var q1 = prompt("Do you think I belive in Alien?").toLowerCase();
 if (q1 === 'yes' || q1 === 'y') {
    console.log(q1)
@@ -16,7 +19,11 @@ if (q1 === 'yes' || q1 === 'y') {
 else {
    alert('oh!try to put yes/y or no/n');
 }
+}
 
+q1();
+
+function q2(){
 var q2 = prompt("Do you think that I like Mansef").toLowerCase();
 if (q2 === 'yes' || q2 === 'y') {
    console.log(q2)
@@ -29,6 +36,13 @@ else if (q2 === 'no' || q2 === 'n') {
 else {
    alert('oh!try to put yes/y or no/n');
 }
+}
+
+q2();
+
+
+function q3(){
+
 
 var q3 = prompt("Do you think that I can speak French?").toLowerCase();
 if (q3 === 'yes' || q3 === 'y') {
@@ -43,6 +57,14 @@ else if (q3 === 'no' || q3 === 'n') {
 } else {
    alert('oh!try to put yes/y or no/n');
 }
+
+}
+
+q3();
+
+function q4(){
+
+
 var q4 = prompt("Do you think that I play Piano").toLowerCase();
 if (q4 === 'yes' || q4 === 'y') {
    console.log(q4)
@@ -56,6 +78,12 @@ if (q4 === 'yes' || q4 === 'y') {
 else {
    alert('oh!try to put yes/y or no/n');
 }
+}
+
+q4();
+
+function q5(){
+
 
 var q5 = prompt("Do you think that I travel a lot?").toLowerCase();
 
@@ -71,6 +99,14 @@ else if (q5 === 'no' || q5 === 'n') {
 else {
    alert('oh!try to put yes/y or no/n');
 }
+
+}
+
+q5();
+
+function q6(){
+
+
 var i = 0;
 var num = 5;
 var q6 = prompt("can you guess the month which I born in?");
@@ -96,6 +132,12 @@ break;
    }
 
 }
+}
+q6();
+
+
+function q7(){
+
 
 var arr = ['red', 'blue', 'black', 'violet', 'pink', 'brown', 'yellow', 'green', 'white'];
 var q7 = prompt("can you guess what is  my favorite color ? ")
@@ -121,4 +163,7 @@ if(x==5){
 }
 q7 = prompt("can you guess what is  my favorite color ? "+" It i swrong you can try agin for: "+(5-x) );
 }
+
+}
+q7();
 alert('Thank you for trying this gussing game' + name1 + 'your score is :' + score + 'The month I was  born in is: 5' + 'My favorite color is:red' );
