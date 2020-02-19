@@ -3,8 +3,8 @@ body{
 }
  main {
     color:rgb(110, 70, 42);
-    padding: 50px;
-    margin: 30px;
+    padding: 10px;
+    margin: 10px;
     border: thick orangered;
 }
 h1{ height: 30px ;
@@ -19,18 +19,18 @@ h1{ height: 30px ;
     text-align: center;
     
 }
-p{ margin: 40x;
-    padding: 40px;
-    color:teal;
+p{ margin: 5px;
+    padding: 5px;
+    color:indigo;
 }
 ul{
 
     list-style-type: square;
-    padding: 40px;
+    padding: 10px;
     margin: 1px;;
 }
 ol{
     list-style-type: upper-latin;
-    padding: 40px;
+    padding: 10px;
     margin: 1px;
 }
