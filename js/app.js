@@ -2,7 +2,7 @@
 var score = 0;
 var name1 = prompt("What is your name?");
 
-alert(`Hello,Salut in all languages welcome to My webpage ${name1}`);
+alert(`Hello,Salut in all languages welcome to My webpage ${name1 }`);
 
 function q1(){
 
@@ -166,4 +166,4 @@ q7 = prompt("can you guess what is  my favorite color ? "+" It i swrong you can 
 
 }
 q7();
-alert('Thank you for trying this gussing game' + name1 + 'your score is :' + score + 'The month I was  born in is: 5' + 'My favorite color is:red' );
+alert('Thank you for trying this gussing game' +"     "+name1 + "   " +  'your score is :' + score  + "    " +'The month I was  born in is: 5' +"    "+ 'My favorite color is:   red' );
